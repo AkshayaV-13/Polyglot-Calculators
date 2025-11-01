@@ -19,7 +19,7 @@ Every valid calculator that runs successfully will be merged ✅
 ## 📁 Folder Structure
 Please keep the repository organized by following this format:
 ```
-Language-or-Type-CalculatorName/
+CalculatorName-Language-or-Type/
 │
 ├── main.<extension> # Your source code
 └── README.md # (Optional) Short description or usage guide
