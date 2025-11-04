@@ -55,7 +55,7 @@ Convert TO (select a number): 3
 Enter the value to convert: 1
 
 --- Result ---
-1.000000 GB = 1,048,576.000000 KB
+1 GB = 1,048,576 KB
 ```
 
 ---
