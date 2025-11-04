@@ -1,5 +1,5 @@
 # 🍳 Cooking Measurement Converter
-# Author: YOUR_GITHUB_USERNAME
+# Author: @AkshadAwesome
 # Description: A comprehensive interactive converter for US cooking measurements
 
 def convert_units(value, from_unit, to_unit):
