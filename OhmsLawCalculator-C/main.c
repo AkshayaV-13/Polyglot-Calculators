@@ -27,6 +27,11 @@ int main(int argc, char const *argv[])
             scanf("%lf%lf", &first, &second);
             getchar();
 
+            if (second == 0){
+                printf("Can't divide by zero, terminating...");
+                return 0;
+            }
+            
             printf("As per formula V/R = I = %.2lf I\n", first / second);
             break;
             
@@ -38,6 +43,11 @@ int main(int argc, char const *argv[])
             scanf("%lf%lf", &first, &second);
             getchar();
 
+            if (second == 0){
+                printf("Can't divide by zero, terminating...");
+                return 0;
+            }
+            
             printf("As per formual V/I = R = %.2lf R\n", first / second);
             break;
 
