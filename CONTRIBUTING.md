@@ -23,8 +23,6 @@ You can contribute:
 
 Every valid calculator that runs successfully will be merged ✅
 
-Please don't solve every issues by yourself, leave some for others ⭐
-
 ---
 
 ## 📁 Folder Structure
