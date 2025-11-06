@@ -3,27 +3,26 @@ def show_menu():
     Generates the selection menu.
     """
     conversions = [
-        "1. Centimeter => Millimeters",   "2. Millimeter => Centimeter",
-        "3. Centimeter => Meter",          "4. Meter => Centimeter",
-        "5. Kilometer => Meter",           "6. Meter => Kilometer",
-        "7. Foot => Inch",                 "8. Inch => Foot",
-        "9. Inch => Centimeter",           "10. Centimeter => Inch",
-        "11. Yard => Feet",                "12. Feet => Yard",
-        "13. Yard => Inch",                "14. Inch => Yard",
-        "15. Mile => Kilometer",           "16. Kilometer => Mile",
+        "1. Centimeter => Millimeters", "2. Millimeter => Centimeter",
+        "3. Centimeter => Meter", "4. Meter => Centimeter",
+        "5. Kilometer => Meter", "6. Meter => Kilometer",
+        "7. Foot => Inch", "8. Inch => Foot",
+        "9. Inch => Centimeter", "10. Centimeter => Inch",
+        "11. Yard => Feet", "12. Feet => Yard",
+        "13. Yard => Inch", "14. Inch => Yard",
+        "15. Mile => Kilometer", "16. Kilometer => Mile",
     ]
     print("")
-    GENERAL_WIDTH = 45 # used for centering and printing of outline
+    GENERAL_WIDTH = 45  # used for centering and printing of outline
     print("Distance Calculator".center(GENERAL_WIDTH))
     print("=" * GENERAL_WIDTH)
     for i in range(0, len(conversions) - 1, 2):
-        print(f"{conversions[i]:<30} {conversions[i+1]:<30}")
+        print(f"{conversions[i]:<30} {conversions[i + 1]:<30}")
     if len(conversions) % 2 != 0:
         print(conversions[-1])
     print("=" * GENERAL_WIDTH)
     print("17. Exit".center(GENERAL_WIDTH))
     print("")
-
 
 
 def get_units(choice):
@@ -105,6 +104,7 @@ def handle_conversion(choice, num):
         case _:
             return None
 
+
 def main():
     """
     Runs the distance converter program.
@@ -132,9 +132,6 @@ def main():
 
         from_unit, to_unit = get_units(choice)
 
-
-
-
         try:
             num = float(input(f"Enter value in {from_unit}: "))
 
@@ -145,12 +142,12 @@ def main():
             print("Invalid input, please enter a numeric value")
             continue
 
-
         result = handle_conversion(choice, num)
         if result is None:
             print("Conversion failed due to invalid choice.")
         else:
             print(f"{num} {from_unit} = {result} {to_unit}")
+
 
 if __name__ == "__main__":
     main()
