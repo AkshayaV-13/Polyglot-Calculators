@@ -1,8 +1,8 @@
-⚡ Ohm’s Law Calculator (Python)
+# ⚡ Ohm’s Law Calculator (Python)
 
 A lightweight command-line tool that calculates Voltage (V), Current (I), or Resistance (R) using Ohm’s Law.
 
-🔧 Features
+🔧 Features :
 
 Compute:
 
