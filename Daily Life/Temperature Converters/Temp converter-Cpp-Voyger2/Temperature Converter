@@ -1,0 +1,46 @@
+#include <iostream>
+#include <limits> // Required for std::numeric_limits
+
+int main(){
+    double temp;
+    char unit;
+
+    std::cout << "#####TEMPERATURE#####\n";
+    std::cout << "F = Fahrenheit\n";
+    std::cout << "C = Celcius\n";
+    std::cout << "What unit would you like to convert to: ";
+    std::cin >> unit;
+
+    if(unit == 'F' || unit == 'f' ){
+        std::cout << "Enter the temperature in degree celcius: ";
+        
+        // Loops until a valid 'double' (number) is entered.
+        while (!(std::cin >> temp)) {
+            std::cout << "  [Error] Invalid input. Please enter a valid number: ";
+            std::cin.clear(); // Clear the error flag
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Discard the bad input
+        }
+
+        temp = (1.8 * temp) + 32.0;
+        std::cout << "The temperature in Fahrenheit is: " << temp << "F\n";
+
+    } else if(unit == 'C' || unit == 'c'){
+        std::cout << "Enter the temperature in Fahrenheit: ";
+        
+        // Same validation as above for this input path.
+        while (!(std::cin >> temp)) {
+            std::cout << "  [Error] Invalid input. Please enter a valid number: ";
+            std::cin.clear(); // Clear the error flag
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Discard the bad input
+        }
+
+        temp = (temp - 32.0) / 1.8;
+        std::cout << "The temperature in Celcius: " << temp << "C\n";
+
+    } else {
+        std::cout <<"Please enter a valid value corresponding to the unit chosen\n";
+    }
+
+    std::cout <<"###################\n";
+    return 0;
+}
