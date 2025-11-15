@@ -8,16 +8,21 @@ int main()
     int weight;
     float height, bmi;
 
+    //Input weight in kg
     cout << "Enter weight in kg:" << endl;
     cin >> weight;
 
+    //Input height in metres
     cout << "Enter height in metres:" << endl;
     cin >> height;
 
+    //Calculate BMI using formula
     bmi = weight/(height * height);
 
+    //Truncate to decimal places
     cout << fixed << setprecision(2);
 
+    //Output result and category
     if(bmi < 18.5)
         cout << "BMI:" << bmi << " " << "(Underweight)" << endl;
 
