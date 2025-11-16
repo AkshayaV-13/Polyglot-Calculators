@@ -109,7 +109,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($expression)) {
 
                     <button type="button" class="btn number" onclick="appendToExpr('0')">0</button>
                     <button type="button" class="btn number" onclick="appendToExpr('.')">.</button>
-                    <button type="button" class="btn number" onclick="appendToExpr('00')">00</button>
+                    <button type="button" class="btn separator" onclick="appendToExpr(',')">,</button>
                     <button type="button" class="btn operator" onclick="appendToExpr('+')">+</button>
                 </div>
             </form>
@@ -130,7 +130,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($expression)) {
         const exprInput = document.getElementById('expression');
 
         function appendToExpr(val) {
-            exprInput.value += val;
+            const cursorPos = exprInput.selectionStart;
+            const textBefore = exprInput.value.substring(0, cursorPos);
+            const textAfter = exprInput.value.substring(cursorPos);
+            exprInput.value = textBefore + val + textAfter;
+            const newPos = cursorPos + val.length;
+            exprInput.setSelectionRange(newPos, newPos);
             exprInput.focus();
         }
 

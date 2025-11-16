@@ -174,6 +174,16 @@ body {
     background: #92400e;
 }
 
+.btn.separator {
+    background: #4c1d95;
+    color: #c4b5fd;
+    font-size: 20px;
+}
+
+.btn.separator:hover {
+    background: #5b21b6;
+}
+
 .btn.equals {
     background: #059669;
     color: white;
