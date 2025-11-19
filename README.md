@@ -47,7 +47,7 @@ If you like this initiative, **give it a ⭐** and help make this the ultimate o
 
 ## 🧰 Current Calculators
 
-Current Unique Contributor Amount is **32**!
+Current Unique Contributor Amount is **36**!
 
 
 | Calculator Name | Programming Language | Contributors |
@@ -55,7 +55,7 @@ Current Unique Contributor Amount is **32**!
 | | | |
 | | | |
 | | | |
-| --- **🧪 Science** --- | | |
+| --- **🧪 Science & Math** --- | | |
 | `ScientificCalculator-Php-Hodemcsuk` | Php | [@Hodemcsuk](https://github.com/Hodemcsuk) |
 | `TemperatureConverter-Java-Ayden939` | Java | [@Ayden939](https://github.com/Ayden939) |
 | `TemperatureConverter-C-Daku3011` | C | [@Daku3011](https://github.com/Daku3011) |
@@ -69,6 +69,7 @@ Current Unique Contributor Amount is **32**!
 | `OhmsLawCalculator-Python-Daku3011` | Python | [@Daku3011](https://github.com/Daku3011) / [@B3rou](https://github.com/B3rou) |
 | `OhmsLawCalculator-Python-CrossGo14` | Python | [@CrossGo14](https://github.com/CrossGo14) / [@B3rou](https://github.com/B3rou) |
 | `OhmsLawCalculator-Python-NikhilYadav04`| Python | [@NikhilYadav04](https://github.com/NikhilYadav04) |
+| `BaseConverter-Python-calebjubal`| Python | [@calebjubal](https://github.com/calebjubal) |
 | | | |
 | | | |
 | | | |
@@ -91,6 +92,8 @@ Current Unique Contributor Amount is **32**!
 | `CookingConverter-Cpp-JuanDRojas1004` | C++ | [@JuanDRojas1004](https://github.com/JuanDRojas1004) |
 | `CryptoCalculator-Go-vishwasio` | Go | [@vishwasio](https://github.com/vishwasio) |
 | `DistanceConverter-Python-Jeevaanandh` | Python | [@Jeevaanandh](https://github.com/Jeevaanandh) |
+| `MassConverter-Python-SimpleChap` | Python | [@SimpleChap](https://github.com/SimpleChap) |
+| `MassConverter-Java-rohithgowda18` | Java | [@rohithgowda18](https://github.com/rohithgowda18) |
 | | | |
 | | | |
 | | | |
@@ -102,6 +105,7 @@ Current Unique Contributor Amount is **32**!
 | `SimpleCalculatorCLI-Python-ifauzeee` | Python | [@ifauzeee](https://github.com/ifauzeee) |
 | `SimpleCalculatorCLI-Python-Kamalesh-choudhary` | Python | [@Kamalesh-choudhary](https://github.com/Kamalesh-choudhary) |
 | `SimpleCalculatorCLI-Python-kInNoVaIDa` | Python | [@kInNoVaIDa](https://github.com/kInNoVaIDa) |
+| `SimpleCalculatorCLI-Python-wwohyzzh` | Python | [@wwohyzzh](https://github.com/wwohyzzh) |
 | `SimpleCalculatorGUI-Python-Avnoor000` | Python | [@Avnoor000](https://github.com/Avnoor000) |
 | `SimpleCalculatorCLI-Java-yummyash` | Java | [@yummyash](https://github.com/yummyash) / [@B3rou](https://github.com/B3rou) (README.md file)|
 | `SimpleCalculatorCLI-Java-Perouvianoss` | Java | [@Perouvianoss](https://github.com/Perouvianoss) |
