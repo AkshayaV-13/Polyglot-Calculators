@@ -97,6 +97,7 @@ Current Unique Contributor Amount is **39**!
 | `DistanceConverter-Python-Jeevaanandh` | Python | [@Jeevaanandh](https://github.com/Jeevaanandh) |
 | `MassConverter-Java-SimpleChap` | Java | [@SimpleChap](https://github.com/SimpleChap) |
 | `MassConverter-Java-rohithgowda18` | Java | [@rohithgowda18](https://github.com/rohithgowda18) |
+| `DurationConverter-Python-Sockney89` | Python | [@Sockney89](https://github.com/Sockney89)|
 | | | |
 | | | |
 | | | |
