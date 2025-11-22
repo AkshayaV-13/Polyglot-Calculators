@@ -48,7 +48,7 @@ If you like this initiative, **give it a ⭐** and help make this the ultimate o
 
 ## 🧰 Current Calculators
 
-Current Unique Contributor Amount is **40**!
+Current Unique Contributor Amount is **41**!
 
 
 | Calculator Name | Programming Language | Contributors |
@@ -70,6 +70,7 @@ Current Unique Contributor Amount is **40**!
 | `OhmsLawCalculator-Python-Daku3011` | Python | [@Daku3011](https://github.com/Daku3011) / [@B3rou](https://github.com/B3rou) |
 | `OhmsLawCalculator-Python-CrossGo14` | Python | [@CrossGo14](https://github.com/CrossGo14) / [@B3rou](https://github.com/B3rou) |
 | `OhmsLawCalculator-Python-NikhilYadav04`| Python | [@NikhilYadav04](https://github.com/NikhilYadav04) |
+| `Ohm-WaveCalculatorGUI-Python-Avnoor000` | Python | [@Avnoor000](https://github.com/Avnoor000) |
 | `BaseConverter-Python-calebjubal`| Python | [@calebjubal](https://github.com/calebjubal) |
 | `BaseConverter-Java-AlexandrAnatoliev`| Java | [@AlexandrAnatoliev](https://github.com/AlexandrAnatoliev) |
 | | | |
@@ -98,6 +99,7 @@ Current Unique Contributor Amount is **40**!
 | `DistanceConverter-Python-Jeevaanandh` | Python | [@Jeevaanandh](https://github.com/Jeevaanandh) |
 | `MassConverter-Java-SimpleChap` | Java | [@SimpleChap](https://github.com/SimpleChap) |
 | `MassConverter-Java-rohithgowda18` | Java | [@rohithgowda18](https://github.com/rohithgowda18) |
+| `MassConverter-Python-abarlow4944` | Python | [@abarlow4944](https://github.com/abarlow4944) |
 | | | |
 | | | |
 | | | |
