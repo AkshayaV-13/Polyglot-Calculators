@@ -1,4 +1,24 @@
+/**
+* Command-line utility to calculate roots of quadratic equation
+* 
+* Supports equations in format: "ax^2 + bx + c" where:
+*   'a' cannot be zero
+*   Spaces are optional
+*   Coefficients can be positive or negative
+*
+* @version  0.1.0
+* @since    25.11.2025
+* @author   AlexandrAnatoliev
+*/
 public class QRCalculator  {
+    /**
+    * Main method that handles command-line arguments and calculates
+    *   roots of quadratic equation.
+    *
+    * @param args       Command-line arguments in the format:
+    *                   ["ax^2 + bx + c"]
+    *        Example:   "2x^2 + 3x + 4" 
+    */
     public static void main(String args[]) {
         double a;
         double b;
@@ -34,6 +54,14 @@ public class QRCalculator  {
         }
     }
 
+    /**
+    * Calculate the discriminant
+    *
+    * @param a first coefficient
+    * @param b second coefficient
+    * @param c third coefficient
+    * @return double discriminant
+    */
     public static double getDiscriminant(double a, double b, double c) {
         return b * b  - 4 * a * c;
     }
