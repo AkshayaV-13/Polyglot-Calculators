@@ -1,7 +1,22 @@
 #include <iostream>
 #include <iomanip>
-
 using namespace std;
+
+void determineBMI(float height, float weight)
+{
+    //Calculate BMI
+    float bmi = weight / (height * height);
+
+    //Determine BMI category
+    if (bmi < 18.5)
+        cout << "BMI: " << bmi << " (Underweight)" << endl;
+    else if (bmi < 25)
+        cout << "BMI: " << bmi << " (Normal weight)" << endl;
+    else if (bmi < 30)
+        cout << "BMI: " << bmi << " (Overweight)" << endl;
+    else
+        cout << "BMI: " << bmi << " (Obese)" << endl;
+}
 
 int main()
 {
@@ -22,16 +37,8 @@ int main()
     //Truncate to decimal places
     cout << fixed << setprecision(2);
 
-    //Output result and category
-    if(bmi < 18.5)
-        cout << "BMI:" << bmi << " " << "(Underweight)" << endl;
+    //Determine BMI category
+    determineBMI(height, weight);
 
-    if(bmi >= 18.5 && bmi < 25)
-        cout << "BMI:" << bmi << " " << "(Normal weight)" << endl;
-    
-    if(bmi >= 25 && bmi < 30)
-        cout << "BMI:" << bmi << " " << "(Overweight)" << endl;
-
-    if(bmi >= 30)
-        cout << "BMI:" << bmi << " " << "(Obese)" << endl;
+    return 0;
 }
