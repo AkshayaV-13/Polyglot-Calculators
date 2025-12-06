@@ -31,12 +31,6 @@ int main()
     cout << "Enter height in metres:" << endl;
     cin >> height;
 
-    //Calculate BMI using formula
-    bmi = weight/(height * height);
-
-    //Truncate to decimal places
-    cout << fixed << setprecision(2);
-
     //Determine BMI category
     determineBMI(height, weight);
 
